@@ -1,0 +1,33 @@
+wp-config.php
+.htaccess
+# WordPress Core
+wp-admin/
+wp-includes/
+wp-content/ai1wm-backups/
+index.php
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# Configuration
+wp-config.php
+.htaccess
+
+# Large Folders (Unless you need to sync specific plugins)
+wp-content/plugins/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/themes/twentytwenty* # Only keep your specific theme and uploads if needed
+# (Assuming your theme is unique, we won't ignore all of wp-content)
+EOF
